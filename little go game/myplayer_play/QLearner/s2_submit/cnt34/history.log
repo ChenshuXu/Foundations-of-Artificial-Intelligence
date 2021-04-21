@@ -1,0 +1,295 @@
+Wed Oct 28 14:38:24 PDT 2020
+
+==Playing with qlearning_player==
+=====Round 1=====
+Black:TA White:You
+Wed Oct 28 14:38:24 PDT 2020
+Clean up...
+Start Playing...
+Black 1,2
+----------
+          
+    X     
+          
+          
+          
+----------
+
+White ERROR: Run out of time or Your program interrupted
+output.txt not found or invalid format
+ta time: 0.34
+student time: 0.02
+White(You) lose.
+=====Round 2=====
+Black:You White:TA
+Wed Oct 28 14:38:25 PDT 2020
+Clean up...
+Start Playing...
+Black ERROR: Run out of time or Your program interrupted
+output.txt not found or invalid format
+ta time: 0.34
+student time: 0.04
+Black(You) lose.
+=====Round 3=====
+Black:TA White:You
+Wed Oct 28 14:38:25 PDT 2020
+Clean up...
+Start Playing...
+Black 1,2
+----------
+          
+    X     
+          
+          
+          
+----------
+
+White ERROR: Run out of time or Your program interrupted
+output.txt not found or invalid format
+ta time: 0.61
+student time: 0.06
+White(You) lose.
+=====Round 4=====
+Black:You White:TA
+Wed Oct 28 14:38:26 PDT 2020
+Clean up...
+Start Playing...
+Black ERROR: Run out of time or Your program interrupted
+output.txt not found or invalid format
+ta time: 0.61
+student time: 0.08
+Black(You) lose.
+=====Round 5=====
+Black:TA White:You
+Wed Oct 28 14:38:26 PDT 2020
+Clean up...
+Start Playing...
+Black 1,2
+----------
+          
+    X     
+          
+          
+          
+----------
+
+White ERROR: Run out of time or Your program interrupted
+output.txt not found or invalid format
+ta time: 0.97
+student time: 0.09
+White(You) lose.
+=====Round 6=====
+Black:You White:TA
+Wed Oct 28 14:38:27 PDT 2020
+Clean up...
+Start Playing...
+Black ERROR: Run out of time or Your program interrupted
+output.txt not found or invalid format
+ta time: 0.97
+student time: 0.11
+Black(You) lose.
+=====Round 7=====
+Black:TA White:You
+Wed Oct 28 14:38:27 PDT 2020
+Clean up...
+Start Playing...
+Black 1,2
+----------
+          
+    X     
+          
+          
+          
+----------
+
+White ERROR: Run out of time or Your program interrupted
+output.txt not found or invalid format
+ta time: 1.24
+student time: 0.13
+White(You) lose.
+=====Round 8=====
+Black:You White:TA
+Wed Oct 28 14:38:27 PDT 2020
+Clean up...
+Start Playing...
+Black ERROR: Run out of time or Your program interrupted
+output.txt not found or invalid format
+ta time: 1.24
+student time: 0.15
+Black(You) lose.
+=====Round 9=====
+Black:TA White:You
+Wed Oct 28 14:38:28 PDT 2020
+Clean up...
+Start Playing...
+Black 1,2
+----------
+          
+    X     
+          
+          
+          
+----------
+
+White ERROR: Run out of time or Your program interrupted
+output.txt not found or invalid format
+ta time: 1.56
+student time: 0.17
+White(You) lose.
+=====Round 10=====
+Black:You White:TA
+Wed Oct 28 14:38:28 PDT 2020
+Clean up...
+Start Playing...
+Black ERROR: Run out of time or Your program interrupted
+output.txt not found or invalid format
+ta time: 1.56
+student time: 0.19
+Black(You) lose.
+
+==Playing with championship_player==
+=====Round 1=====
+Black:TA White:You
+Wed Oct 28 14:38:28 PDT 2020
+Clean up...
+Start Playing...
+Black 2,2
+----------
+          
+          
+    X     
+          
+          
+----------
+
+White ERROR: Run out of time or Your program interrupted
+output.txt not found or invalid format
+ta time: 1.62
+student time: 0.21
+White(You) lose.
+=====Round 2=====
+Black:You White:TA
+Wed Oct 28 14:38:37 PDT 2020
+Clean up...
+Start Playing...
+Black ERROR: Run out of time or Your program interrupted
+output.txt not found or invalid format
+ta time: 1.62
+student time: 0.23
+Black(You) lose.
+=====Round 3=====
+Black:TA White:You
+Wed Oct 28 14:38:37 PDT 2020
+Clean up...
+Start Playing...
+Black 2,2
+----------
+          
+          
+    X     
+          
+          
+----------
+
+White ERROR: Run out of time or Your program interrupted
+output.txt not found or invalid format
+ta time: 1.68
+student time: 0.25
+White(You) lose.
+=====Round 4=====
+Black:You White:TA
+Wed Oct 28 14:38:37 PDT 2020
+Clean up...
+Start Playing...
+Black ERROR: Run out of time or Your program interrupted
+output.txt not found or invalid format
+ta time: 1.68
+student time: 0.27
+Black(You) lose.
+=====Round 5=====
+Black:TA White:You
+Wed Oct 28 14:38:38 PDT 2020
+Clean up...
+Start Playing...
+Black 2,2
+----------
+          
+          
+    X     
+          
+          
+----------
+
+White ERROR: Run out of time or Your program interrupted
+output.txt not found or invalid format
+ta time: 1.74
+student time: 0.29
+White(You) lose.
+=====Round 6=====
+Black:You White:TA
+Wed Oct 28 14:38:39 PDT 2020
+Clean up...
+Start Playing...
+Black ERROR: Run out of time or Your program interrupted
+output.txt not found or invalid format
+ta time: 1.74
+student time: 0.31
+Black(You) lose.
+=====Round 7=====
+Black:TA White:You
+Wed Oct 28 14:38:39 PDT 2020
+Clean up...
+Start Playing...
+Black 2,2
+----------
+          
+          
+    X     
+          
+          
+----------
+
+White ERROR: Run out of time or Your program interrupted
+output.txt not found or invalid format
+ta time: 1.79
+student time: 0.33
+White(You) lose.
+=====Round 8=====
+Black:You White:TA
+Wed Oct 28 14:38:39 PDT 2020
+Clean up...
+Start Playing...
+Black ERROR: Run out of time or Your program interrupted
+output.txt not found or invalid format
+ta time: 1.79
+student time: 0.35
+Black(You) lose.
+=====Round 9=====
+Black:TA White:You
+Wed Oct 28 14:38:39 PDT 2020
+Clean up...
+Start Playing...
+Black 2,2
+----------
+          
+          
+    X     
+          
+          
+----------
+
+White ERROR: Run out of time or Your program interrupted
+output.txt not found or invalid format
+ta time: 1.85
+student time: 0.37
+White(You) lose.
+=====Round 10=====
+Black:You White:TA
+Wed Oct 28 14:38:40 PDT 2020
+Clean up...
+Start Playing...
+Black ERROR: Run out of time or Your program interrupted
+output.txt not found or invalid format
+ta time: 1.85
+student time: 0.38
+Black(You) lose.

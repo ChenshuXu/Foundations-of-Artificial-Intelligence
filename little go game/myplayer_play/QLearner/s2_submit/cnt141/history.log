@@ -1,0 +1,4525 @@
+Thu Oct 29 22:13:56 PDT 2020
+
+==Playing with qlearning_player==
+=====Round 1=====
+Black:TA White:You
+Thu Oct 29 22:13:56 PDT 2020
+Clean up...
+Start Playing...
+Black 1,2
+----------
+          
+    X     
+          
+          
+          
+----------
+
+White 2,1
+----------
+          
+    X     
+  O       
+          
+          
+----------
+
+Black 2,2
+----------
+          
+    X     
+  O X     
+          
+          
+----------
+
+White 3,1
+----------
+          
+    X     
+  O X     
+  O       
+          
+----------
+
+Black 0,0
+----------
+X         
+    X     
+  O X     
+  O       
+          
+----------
+
+White 1,1
+----------
+X         
+  O X     
+  O X     
+  O       
+          
+----------
+
+Black 0,1
+----------
+X X       
+  O X     
+  O X     
+  O       
+          
+----------
+
+White 1,0
+----------
+X X       
+O O X     
+  O X     
+  O       
+          
+----------
+
+Black 3,2
+----------
+X X       
+O O X     
+  O X     
+  O X     
+          
+----------
+
+White 0,2
+----------
+    O     
+O O X     
+  O X     
+  O X     
+          
+----------
+
+Black 2,3
+----------
+    O     
+O O X     
+  O X X   
+  O X     
+          
+----------
+
+White 0,3
+----------
+    O O   
+O O X     
+  O X X   
+  O X     
+          
+----------
+
+Black 2,4
+----------
+    O O   
+O O X     
+  O X X X 
+  O X     
+          
+----------
+
+White 4,1
+----------
+    O O   
+O O X     
+  O X X X 
+  O X     
+  O       
+----------
+
+Black 4,2
+----------
+    O O   
+O O X     
+  O X X X 
+  O X     
+  O X     
+----------
+
+White 1,3
+----------
+    O O   
+O O X O   
+  O X X X 
+  O X     
+  O X     
+----------
+
+Black 2,0
+----------
+    O O   
+O O X O   
+X O X X X 
+  O X     
+  O X     
+----------
+
+White 3,0
+----------
+    O O   
+O O X O   
+  O X X X 
+O O X     
+  O X     
+----------
+
+Black 3,3
+----------
+    O O   
+O O X O   
+  O X X X 
+O O X X   
+  O X     
+----------
+
+White 0,0
+----------
+O   O O   
+O O X O   
+  O X X X 
+O O X X   
+  O X     
+----------
+
+Black 4,3
+----------
+O   O O   
+O O X O   
+  O X X X 
+O O X X   
+  O X X   
+----------
+
+White 0,1
+----------
+O O O O   
+O O X O   
+  O X X X 
+O O X X   
+  O X X   
+----------
+
+Black 1,4
+----------
+O O O O   
+O O X O X 
+  O X X X 
+O O X X   
+  O X X   
+----------
+
+White 0,4
+----------
+O O O O O 
+O O X O X 
+  O X X X 
+O O X X   
+  O X X   
+----------
+
+Game end.
+The winner is O
+ta time: 3.68
+student time: 3.05
+White(You) win!
+=====Round 2=====
+Black:You White:TA
+Thu Oct 29 22:14:15 PDT 2020
+Clean up...
+Start Playing...
+Black 2,2
+----------
+          
+          
+    X     
+          
+          
+----------
+
+White 2,1
+----------
+          
+          
+  O X     
+          
+          
+----------
+
+Black 1,2
+----------
+          
+    X     
+  O X     
+          
+          
+----------
+
+White 3,2
+----------
+          
+    X     
+  O X     
+    O     
+          
+----------
+
+Black 1,1
+----------
+          
+  X X     
+  O X     
+    O     
+          
+----------
+
+White 2,3
+----------
+          
+  X X     
+  O X O   
+    O     
+          
+----------
+
+Black 3,1
+----------
+          
+  X X     
+  O X O   
+  X O     
+          
+----------
+
+White 2,4
+----------
+          
+  X X     
+  O X O O 
+  X O     
+          
+----------
+
+Black 2,0
+----------
+          
+  X X     
+X   X O O 
+  X O     
+          
+----------
+
+White 4,2
+----------
+          
+  X X     
+X   X O O 
+  X O     
+    O     
+----------
+
+Black 1,3
+----------
+          
+  X X X   
+X   X O O 
+  X O     
+    O     
+----------
+
+White 3,3
+----------
+          
+  X X X   
+X   X O O 
+  X O O   
+    O     
+----------
+
+Black 0,1
+----------
+  X       
+  X X X   
+X   X O O 
+  X O O   
+    O     
+----------
+
+White 0,2
+----------
+  X O     
+  X X X   
+X   X O O 
+  X O O   
+    O     
+----------
+
+Black 0,3
+----------
+  X   X   
+  X X X   
+X   X O O 
+  X O O   
+    O     
+----------
+
+White 4,3
+----------
+  X   X   
+  X X X   
+X   X O O 
+  X O O   
+    O O   
+----------
+
+Black 2,1
+----------
+  X   X   
+  X X X   
+X X X O O 
+  X O O   
+    O O   
+----------
+
+White 1,4
+----------
+  X   X   
+  X X X O 
+X X X O O 
+  X O O   
+    O O   
+----------
+
+Black 3,0
+----------
+  X   X   
+  X X X O 
+X X X O O 
+X X O O   
+    O O   
+----------
+
+White 1,0
+----------
+  X   X   
+O X X X O 
+X X X O O 
+X X O O   
+    O O   
+----------
+
+Black 0,0
+----------
+X X   X   
+  X X X O 
+X X X O O 
+X X O O   
+    O O   
+----------
+
+White 3,4
+----------
+X X   X   
+  X X X O 
+X X X O O 
+X X O O O 
+    O O   
+----------
+
+Black 0,2
+----------
+X X X X   
+  X X X O 
+X X X O O 
+X X O O O 
+    O O   
+----------
+
+White 4,1
+----------
+X X X X   
+  X X X O 
+X X X O O 
+X X O O O 
+  O O O   
+----------
+
+Game end.
+The winner is X
+ta time: 7.19
+student time: 6.34
+Black(You) win!
+=====Round 3=====
+Black:TA White:You
+Thu Oct 29 22:14:33 PDT 2020
+Clean up...
+Start Playing...
+Black 1,2
+----------
+          
+    X     
+          
+          
+          
+----------
+
+White 2,1
+----------
+          
+    X     
+  O       
+          
+          
+----------
+
+Black 2,2
+----------
+          
+    X     
+  O X     
+          
+          
+----------
+
+White 3,1
+----------
+          
+    X     
+  O X     
+  O       
+          
+----------
+
+Black 0,0
+----------
+X         
+    X     
+  O X     
+  O       
+          
+----------
+
+White 1,1
+----------
+X         
+  O X     
+  O X     
+  O       
+          
+----------
+
+Black 0,1
+----------
+X X       
+  O X     
+  O X     
+  O       
+          
+----------
+
+White 1,0
+----------
+X X       
+O O X     
+  O X     
+  O       
+          
+----------
+
+Black 2,3
+----------
+X X       
+O O X     
+  O X X   
+  O       
+          
+----------
+
+White 0,2
+----------
+    O     
+O O X     
+  O X X   
+  O       
+          
+----------
+
+Black 3,2
+----------
+    O     
+O O X     
+  O X X   
+  O X     
+          
+----------
+
+White 0,3
+----------
+    O O   
+O O X     
+  O X X   
+  O X     
+          
+----------
+
+Black 3,3
+----------
+    O O   
+O O X     
+  O X X   
+  O X X   
+          
+----------
+
+White 4,1
+----------
+    O O   
+O O X     
+  O X X   
+  O X X   
+  O       
+----------
+
+Black 2,0
+----------
+    O O   
+O O X     
+X O X X   
+  O X X   
+  O       
+----------
+
+White 3,0
+----------
+    O O   
+O O X     
+  O X X   
+O O X X   
+  O       
+----------
+
+Black 1,3
+----------
+    O O   
+O O X X   
+  O X X   
+O O X X   
+  O       
+----------
+
+White 0,4
+----------
+    O O O 
+O O X X   
+  O X X   
+O O X X   
+  O       
+----------
+
+Black 2,4
+----------
+    O O O 
+O O X X   
+  O X X X 
+O O X X   
+  O       
+----------
+
+White 4,2
+----------
+    O O O 
+O O X X   
+  O X X X 
+O O X X   
+  O O     
+----------
+
+Black 4,3
+----------
+    O O O 
+O O X X   
+  O X X X 
+O O X X   
+  O O X   
+----------
+
+White 0,0
+----------
+O   O O O 
+O O X X   
+  O X X X 
+O O X X   
+  O O X   
+----------
+
+Black 1,4
+----------
+O   O O O 
+O O X X X 
+  O X X X 
+O O X X   
+  O O X   
+----------
+
+White 3,4
+----------
+O   O O O 
+O O X X X 
+  O X X X 
+O O X X O 
+  O O X   
+----------
+
+Game end.
+The winner is O
+ta time: 10.61
+student time: 9.7
+White(You) win!
+=====Round 4=====
+Black:You White:TA
+Thu Oct 29 22:14:49 PDT 2020
+Clean up...
+Start Playing...
+Black 2,2
+----------
+          
+          
+    X     
+          
+          
+----------
+
+White 2,1
+----------
+          
+          
+  O X     
+          
+          
+----------
+
+Black 1,2
+----------
+          
+    X     
+  O X     
+          
+          
+----------
+
+White 3,2
+----------
+          
+    X     
+  O X     
+    O     
+          
+----------
+
+Black 1,1
+----------
+          
+  X X     
+  O X     
+    O     
+          
+----------
+
+White 2,3
+----------
+          
+  X X     
+  O X O   
+    O     
+          
+----------
+
+Black 3,1
+----------
+          
+  X X     
+  O X O   
+  X O     
+          
+----------
+
+White 1,3
+----------
+          
+  X X O   
+  O X O   
+  X O     
+          
+----------
+
+Black 2,0
+----------
+          
+  X X O   
+X   X O   
+  X O     
+          
+----------
+
+White 0,2
+----------
+    O     
+  X X O   
+X   X O   
+  X O     
+          
+----------
+
+Black 0,1
+----------
+  X O     
+  X X O   
+X   X O   
+  X O     
+          
+----------
+
+White 4,2
+----------
+  X O     
+  X X O   
+X   X O   
+  X O     
+    O     
+----------
+
+Black 2,1
+----------
+  X O     
+  X X O   
+X X X O   
+  X O     
+    O     
+----------
+
+White 3,3
+----------
+  X O     
+  X X O   
+X X X O   
+  X O O   
+    O     
+----------
+
+Black 3,0
+----------
+  X O     
+  X X O   
+X X X O   
+X X O O   
+    O     
+----------
+
+White 2,4
+----------
+  X O     
+  X X O   
+X X X O O 
+X X O O   
+    O     
+----------
+
+Black 0,0
+----------
+X X O     
+  X X O   
+X X X O O 
+X X O O   
+    O     
+----------
+
+White 1,4
+----------
+X X O     
+  X X O O 
+X X X O O 
+X X O O   
+    O     
+----------
+
+Black 1,0
+----------
+X X O     
+X X X O O 
+X X X O O 
+X X O O   
+    O     
+----------
+
+White 0,3
+----------
+X X O O   
+X X X O O 
+X X X O O 
+X X O O   
+    O     
+----------
+
+Black 4,4
+----------
+X X O O   
+X X X O O 
+X X X O O 
+X X O O   
+    O   X 
+----------
+
+White 4,3
+----------
+X X O O   
+X X X O O 
+X X X O O 
+X X O O   
+    O O X 
+----------
+
+Black PASS
+----------
+X X O O   
+X X X O O 
+X X X O O 
+X X O O   
+    O O X 
+----------
+
+White 3,4
+----------
+X X O O   
+X X X O O 
+X X X O O 
+X X O O O 
+    O O   
+----------
+
+Game end.
+The winner is O
+ta time: 14.12
+student time: 12.8
+Black(You) lose.
+=====Round 5=====
+Black:TA White:You
+Thu Oct 29 22:15:07 PDT 2020
+Clean up...
+Start Playing...
+Black 1,2
+----------
+          
+    X     
+          
+          
+          
+----------
+
+White 2,1
+----------
+          
+    X     
+  O       
+          
+          
+----------
+
+Black 2,2
+----------
+          
+    X     
+  O X     
+          
+          
+----------
+
+White 3,1
+----------
+          
+    X     
+  O X     
+  O       
+          
+----------
+
+Black 0,0
+----------
+X         
+    X     
+  O X     
+  O       
+          
+----------
+
+White 1,1
+----------
+X         
+  O X     
+  O X     
+  O       
+          
+----------
+
+Black 0,1
+----------
+X X       
+  O X     
+  O X     
+  O       
+          
+----------
+
+White 1,0
+----------
+X X       
+O O X     
+  O X     
+  O       
+          
+----------
+
+Black 2,3
+----------
+X X       
+O O X     
+  O X X   
+  O       
+          
+----------
+
+White 0,2
+----------
+    O     
+O O X     
+  O X X   
+  O       
+          
+----------
+
+Black 3,2
+----------
+    O     
+O O X     
+  O X X   
+  O X     
+          
+----------
+
+White 0,3
+----------
+    O O   
+O O X     
+  O X X   
+  O X     
+          
+----------
+
+Black 4,2
+----------
+    O O   
+O O X     
+  O X X   
+  O X     
+    X     
+----------
+
+White 1,3
+----------
+    O O   
+O O X O   
+  O X X   
+  O X     
+    X     
+----------
+
+Black 2,0
+----------
+    O O   
+O O X O   
+X O X X   
+  O X     
+    X     
+----------
+
+White 3,0
+----------
+    O O   
+O O X O   
+  O X X   
+O O X     
+    X     
+----------
+
+Black 3,3
+----------
+    O O   
+O O X O   
+  O X X   
+O O X X   
+    X     
+----------
+
+White 1,4
+----------
+    O O   
+O O X O O 
+  O X X   
+O O X X   
+    X     
+----------
+
+Black 2,4
+----------
+    O O   
+O O X O O 
+  O X X X 
+O O X X   
+    X     
+----------
+
+White 0,0
+----------
+O   O O   
+O O X O O 
+  O X X X 
+O O X X   
+    X     
+----------
+
+Black 4,3
+----------
+O   O O   
+O O X O O 
+  O X X X 
+O O X X   
+    X X   
+----------
+
+White 0,1
+----------
+O O O O   
+O O X O O 
+  O X X X 
+O O X X   
+    X X   
+----------
+
+Black 4,1
+----------
+O O O O   
+O O X O O 
+  O X X X 
+O O X X   
+  X X X   
+----------
+
+White 0,4
+----------
+O O O O O 
+O O X O O 
+  O X X X 
+O O X X   
+  X X X   
+----------
+
+Game end.
+The winner is O
+ta time: 17.76
+student time: 16.25
+White(You) win!
+=====Round 6=====
+Black:You White:TA
+Thu Oct 29 22:15:25 PDT 2020
+Clean up...
+Start Playing...
+Black 2,2
+----------
+          
+          
+    X     
+          
+          
+----------
+
+White 2,1
+----------
+          
+          
+  O X     
+          
+          
+----------
+
+Black 1,2
+----------
+          
+    X     
+  O X     
+          
+          
+----------
+
+White 3,2
+----------
+          
+    X     
+  O X     
+    O     
+          
+----------
+
+Black 1,1
+----------
+          
+  X X     
+  O X     
+    O     
+          
+----------
+
+White 2,3
+----------
+          
+  X X     
+  O X O   
+    O     
+          
+----------
+
+Black 3,1
+----------
+          
+  X X     
+  O X O   
+  X O     
+          
+----------
+
+White 4,2
+----------
+          
+  X X     
+  O X O   
+  X O     
+    O     
+----------
+
+Black 2,0
+----------
+          
+  X X     
+X   X O   
+  X O     
+    O     
+----------
+
+White 3,3
+----------
+          
+  X X     
+X   X O   
+  X O O   
+    O     
+----------
+
+Black 1,3
+----------
+          
+  X X X   
+X   X O   
+  X O O   
+    O     
+----------
+
+White 2,4
+----------
+          
+  X X X   
+X   X O O 
+  X O O   
+    O     
+----------
+
+Black 0,1
+----------
+  X       
+  X X X   
+X   X O O 
+  X O O   
+    O     
+----------
+
+White 0,2
+----------
+  X O     
+  X X X   
+X   X O O 
+  X O O   
+    O     
+----------
+
+Black 0,3
+----------
+  X   X   
+  X X X   
+X   X O O 
+  X O O   
+    O     
+----------
+
+White 3,0
+----------
+  X   X   
+  X X X   
+X   X O O 
+O X O O   
+    O     
+----------
+
+Black 2,1
+----------
+  X   X   
+  X X X   
+X X X O O 
+O X O O   
+    O     
+----------
+
+White 3,4
+----------
+  X   X   
+  X X X   
+X X X O O 
+O X O O O 
+    O     
+----------
+
+Black 4,1
+----------
+  X   X   
+  X X X   
+X X X O O 
+O X O O O 
+  X O     
+----------
+
+White 4,3
+----------
+  X   X   
+  X X X   
+X X X O O 
+O X O O O 
+  X O O   
+----------
+
+Black 1,4
+----------
+  X   X   
+  X X X X 
+X X X O O 
+O X O O O 
+  X O O   
+----------
+
+White 1,0
+----------
+  X   X   
+O X X X X 
+X X X O O 
+O X O O O 
+  X O O   
+----------
+
+Black 4,4
+----------
+  X   X   
+O X X X X 
+X X X     
+O X       
+  X     X 
+----------
+
+White 3,2
+----------
+  X   X   
+O X X X X 
+X X X     
+O X O     
+  X     X 
+----------
+
+Game end.
+The winner is X
+ta time: 21.28
+student time: 19.47
+Black(You) win!
+=====Round 7=====
+Black:TA White:You
+Thu Oct 29 22:15:42 PDT 2020
+Clean up...
+Start Playing...
+Black 1,2
+----------
+          
+    X     
+          
+          
+          
+----------
+
+White 2,1
+----------
+          
+    X     
+  O       
+          
+          
+----------
+
+Black 2,2
+----------
+          
+    X     
+  O X     
+          
+          
+----------
+
+White 3,1
+----------
+          
+    X     
+  O X     
+  O       
+          
+----------
+
+Black 0,0
+----------
+X         
+    X     
+  O X     
+  O       
+          
+----------
+
+White 1,1
+----------
+X         
+  O X     
+  O X     
+  O       
+          
+----------
+
+Black 0,1
+----------
+X X       
+  O X     
+  O X     
+  O       
+          
+----------
+
+White 1,0
+----------
+X X       
+O O X     
+  O X     
+  O       
+          
+----------
+
+Black 3,2
+----------
+X X       
+O O X     
+  O X     
+  O X     
+          
+----------
+
+White 0,2
+----------
+    O     
+O O X     
+  O X     
+  O X     
+          
+----------
+
+Black 2,3
+----------
+    O     
+O O X     
+  O X X   
+  O X     
+          
+----------
+
+White 0,3
+----------
+    O O   
+O O X     
+  O X X   
+  O X     
+          
+----------
+
+Black 1,3
+----------
+    O O   
+O O X X   
+  O X X   
+  O X     
+          
+----------
+
+White 4,1
+----------
+    O O   
+O O X X   
+  O X X   
+  O X     
+  O       
+----------
+
+Black 3,3
+----------
+    O O   
+O O X X   
+  O X X   
+  O X X   
+  O       
+----------
+
+White 0,4
+----------
+    O O O 
+O O X X   
+  O X X   
+  O X X   
+  O       
+----------
+
+Black 2,0
+----------
+    O O O 
+O O X X   
+X O X X   
+  O X X   
+  O       
+----------
+
+White 3,0
+----------
+    O O O 
+O O X X   
+  O X X   
+O O X X   
+  O       
+----------
+
+Black 2,4
+----------
+    O O O 
+O O X X   
+  O X X X 
+O O X X   
+  O       
+----------
+
+White 4,2
+----------
+    O O O 
+O O X X   
+  O X X X 
+O O X X   
+  O O     
+----------
+
+Black 0,1
+----------
+  X O O O 
+O O X X   
+  O X X X 
+O O X X   
+  O O     
+----------
+
+White 0,0
+----------
+O   O O O 
+O O X X   
+  O X X X 
+O O X X   
+  O O     
+----------
+
+Black 3,4
+----------
+O   O O O 
+O O X X   
+  O X X X 
+O O X X X 
+  O O     
+----------
+
+White 4,3
+----------
+O   O O O 
+O O X X   
+  O X X X 
+O O X X X 
+  O O O   
+----------
+
+Game end.
+The winner is O
+ta time: 25.08
+student time: 22.68
+White(You) win!
+=====Round 8=====
+Black:You White:TA
+Thu Oct 29 22:16:05 PDT 2020
+Clean up...
+Start Playing...
+Black 2,2
+----------
+          
+          
+    X     
+          
+          
+----------
+
+White 2,1
+----------
+          
+          
+  O X     
+          
+          
+----------
+
+Black 1,2
+----------
+          
+    X     
+  O X     
+          
+          
+----------
+
+White 3,2
+----------
+          
+    X     
+  O X     
+    O     
+          
+----------
+
+Black 1,1
+----------
+          
+  X X     
+  O X     
+    O     
+          
+----------
+
+White 2,3
+----------
+          
+  X X     
+  O X O   
+    O     
+          
+----------
+
+Black 3,1
+----------
+          
+  X X     
+  O X O   
+  X O     
+          
+----------
+
+White 3,3
+----------
+          
+  X X     
+  O X O   
+  X O O   
+          
+----------
+
+Black 2,0
+----------
+          
+  X X     
+X   X O   
+  X O O   
+          
+----------
+
+White 2,4
+----------
+          
+  X X     
+X   X O O 
+  X O O   
+          
+----------
+
+Black 1,3
+----------
+          
+  X X X   
+X   X O O 
+  X O O   
+          
+----------
+
+White 0,2
+----------
+    O     
+  X X X   
+X   X O O 
+  X O O   
+          
+----------
+
+Black 0,1
+----------
+  X O     
+  X X X   
+X   X O O 
+  X O O   
+          
+----------
+
+White 4,2
+----------
+  X O     
+  X X X   
+X   X O O 
+  X O O   
+    O     
+----------
+
+Black 0,3
+----------
+  X   X   
+  X X X   
+X   X O O 
+  X O O   
+    O     
+----------
+
+White 4,1
+----------
+  X   X   
+  X X X   
+X   X O O 
+  X O O   
+  O O     
+----------
+
+Black 2,1
+----------
+  X   X   
+  X X X   
+X X X O O 
+  X O O   
+  O O     
+----------
+
+White 1,0
+----------
+  X   X   
+O X X X   
+X X X O O 
+  X O O   
+  O O     
+----------
+
+Black 0,0
+----------
+X X   X   
+  X X X   
+X X X O O 
+  X O O   
+  O O     
+----------
+
+White 3,0
+----------
+X X   X   
+  X X X   
+X X X O O 
+O X O O   
+  O O     
+----------
+
+Black 0,2
+----------
+X X X X   
+  X X X   
+X X X O O 
+O X O O   
+  O O     
+----------
+
+White 3,4
+----------
+X X X X   
+  X X X   
+X X X O O 
+O X O O O 
+  O O     
+----------
+
+Black 0,4
+----------
+X X X X X 
+  X X X   
+X X X O O 
+O X O O O 
+  O O     
+----------
+
+White 4,3
+----------
+X X X X X 
+  X X X   
+X X X O O 
+O X O O O 
+  O O O   
+----------
+
+Game end.
+The winner is X
+ta time: 28.69
+student time: 25.95
+Black(You) win!
+=====Round 9=====
+Black:TA White:You
+Thu Oct 29 22:16:22 PDT 2020
+Clean up...
+Start Playing...
+Black 1,2
+----------
+          
+    X     
+          
+          
+          
+----------
+
+White 2,1
+----------
+          
+    X     
+  O       
+          
+          
+----------
+
+Black 2,2
+----------
+          
+    X     
+  O X     
+          
+          
+----------
+
+White 3,1
+----------
+          
+    X     
+  O X     
+  O       
+          
+----------
+
+Black 0,0
+----------
+X         
+    X     
+  O X     
+  O       
+          
+----------
+
+White 1,1
+----------
+X         
+  O X     
+  O X     
+  O       
+          
+----------
+
+Black 0,1
+----------
+X X       
+  O X     
+  O X     
+  O       
+          
+----------
+
+White 1,0
+----------
+X X       
+O O X     
+  O X     
+  O       
+          
+----------
+
+Black 2,3
+----------
+X X       
+O O X     
+  O X X   
+  O       
+          
+----------
+
+White 0,2
+----------
+    O     
+O O X     
+  O X X   
+  O       
+          
+----------
+
+Black 3,2
+----------
+    O     
+O O X     
+  O X X   
+  O X     
+          
+----------
+
+White 0,3
+----------
+    O O   
+O O X     
+  O X X   
+  O X     
+          
+----------
+
+Black 4,2
+----------
+    O O   
+O O X     
+  O X X   
+  O X     
+    X     
+----------
+
+White 1,3
+----------
+    O O   
+O O X O   
+  O X X   
+  O X     
+    X     
+----------
+
+Black 2,4
+----------
+    O O   
+O O X O   
+  O X X X 
+  O X     
+    X     
+----------
+
+White 3,0
+----------
+    O O   
+O O X O   
+  O X X X 
+O O X     
+    X     
+----------
+
+Black 3,3
+----------
+    O O   
+O O X O   
+  O X X X 
+O O X X   
+    X     
+----------
+
+White 0,0
+----------
+O   O O   
+O O X O   
+  O X X X 
+O O X X   
+    X     
+----------
+
+Black 1,4
+----------
+O   O O   
+O O X O X 
+  O X X X 
+O O X X   
+    X     
+----------
+
+White 0,1
+----------
+O O O O   
+O O X O X 
+  O X X X 
+O O X X   
+    X     
+----------
+
+Black 3,4
+----------
+O O O O   
+O O X O X 
+  O X X X 
+O O X X X 
+    X     
+----------
+
+White 0,4
+----------
+O O O O O 
+O O X O X 
+  O X X X 
+O O X X X 
+    X     
+----------
+
+Black 4,1
+----------
+O O O O O 
+O O X O X 
+  O X X X 
+O O X X X 
+  X X     
+----------
+
+White PASS
+----------
+O O O O O 
+O O X O X 
+  O X X X 
+O O X X X 
+  X X     
+----------
+
+Game end.
+The winner is O
+ta time: 32.77
+student time: 29.45
+White(You) win!
+=====Round 10=====
+Black:You White:TA
+Thu Oct 29 22:16:40 PDT 2020
+Clean up...
+Start Playing...
+Black 2,2
+----------
+          
+          
+    X     
+          
+          
+----------
+
+White 2,1
+----------
+          
+          
+  O X     
+          
+          
+----------
+
+Black 1,2
+----------
+          
+    X     
+  O X     
+          
+          
+----------
+
+White 3,2
+----------
+          
+    X     
+  O X     
+    O     
+          
+----------
+
+Black 1,1
+----------
+          
+  X X     
+  O X     
+    O     
+          
+----------
+
+White 2,3
+----------
+          
+  X X     
+  O X O   
+    O     
+          
+----------
+
+Black 3,1
+----------
+          
+  X X     
+  O X O   
+  X O     
+          
+----------
+
+White 1,3
+----------
+          
+  X X O   
+  O X O   
+  X O     
+          
+----------
+
+Black 2,0
+----------
+          
+  X X O   
+X   X O   
+  X O     
+          
+----------
+
+White 4,2
+----------
+          
+  X X O   
+X   X O   
+  X O     
+    O     
+----------
+
+Black 0,1
+----------
+  X       
+  X X O   
+X   X O   
+  X O     
+    O     
+----------
+
+White 3,3
+----------
+  X       
+  X X O   
+X   X O   
+  X O O   
+    O     
+----------
+
+Black 0,2
+----------
+  X X     
+  X X O   
+X   X O   
+  X O O   
+    O     
+----------
+
+White 2,4
+----------
+  X X     
+  X X O   
+X   X O O 
+  X O O   
+    O     
+----------
+
+Black 0,3
+----------
+  X X X   
+  X X O   
+X   X O O 
+  X O O   
+    O     
+----------
+
+White 3,4
+----------
+  X X X   
+  X X O   
+X   X O O 
+  X O O O 
+    O     
+----------
+
+Black 0,4
+----------
+  X X X X 
+  X X O   
+X   X O O 
+  X O O O 
+    O     
+----------
+
+White 4,1
+----------
+  X X X X 
+  X X O   
+X   X O O 
+  X O O O 
+  O O     
+----------
+
+Black 2,1
+----------
+  X X X X 
+  X X O   
+X X X O O 
+  X O O O 
+  O O     
+----------
+
+White 3,0
+----------
+  X X X X 
+  X X O   
+X X X O O 
+O X O O O 
+  O O     
+----------
+
+Black 0,0
+----------
+X X X X X 
+  X X O   
+X X X O O 
+O X O O O 
+  O O     
+----------
+
+White 1,4
+----------
+X X X X X 
+  X X O O 
+X X X O O 
+O X O O O 
+  O O     
+----------
+
+Black 4,0
+----------
+X X X X X 
+  X X O O 
+X X X O O 
+  X O O O 
+X O O     
+----------
+
+White 4,3
+----------
+X X X X X 
+  X X O O 
+X X X O O 
+  X O O O 
+X O O O   
+----------
+
+Game end.
+The winner is O
+ta time: 36.27
+student time: 32.72
+Black(You) lose.
+
+==Playing with championship_player==
+=====Round 1=====
+Black:TA White:You
+Thu Oct 29 22:16:56 PDT 2020
+Clean up...
+Start Playing...
+Black 2,2
+----------
+          
+          
+    X     
+          
+          
+----------
+
+White 1,1
+----------
+          
+  O       
+    X     
+          
+          
+----------
+
+Black 1,2
+----------
+          
+  O X     
+    X     
+          
+          
+----------
+
+White 3,3
+----------
+          
+  O X     
+    X     
+      O   
+          
+----------
+
+Black 3,2
+----------
+          
+  O X     
+    X     
+    X O   
+          
+----------
+
+White 0,3
+----------
+      O   
+  O X     
+    X     
+    X O   
+          
+----------
+
+Black 0,2
+----------
+    X O   
+  O X     
+    X     
+    X O   
+          
+----------
+
+White 3,0
+----------
+    X O   
+  O X     
+    X     
+O   X O   
+          
+----------
+
+Black 4,2
+----------
+    X O   
+  O X     
+    X     
+O   X O   
+    X     
+----------
+
+White 1,3
+----------
+    X O   
+  O X O   
+    X     
+O   X O   
+    X     
+----------
+
+Black 2,3
+----------
+    X O   
+  O X O   
+    X X   
+O   X O   
+    X     
+----------
+
+White 3,1
+----------
+    X O   
+  O X O   
+    X X   
+O O X O   
+    X     
+----------
+
+Black 3,4
+----------
+    X O   
+  O X O   
+    X X   
+O O X O X 
+    X     
+----------
+
+White 0,1
+----------
+  O X O   
+  O X O   
+    X X   
+O O X O X 
+    X     
+----------
+
+Black 4,3
+----------
+  O X O   
+  O X O   
+    X X   
+O O X   X 
+    X X   
+----------
+
+White 1,4
+----------
+  O X O   
+  O X O O 
+    X X   
+O O X   X 
+    X X   
+----------
+
+Black 2,1
+----------
+  O X O   
+  O X O O 
+  X X X   
+O O X   X 
+    X X   
+----------
+
+White 1,0
+----------
+  O X O   
+O O X O O 
+  X X X   
+O O X   X 
+    X X   
+----------
+
+Black 2,4
+----------
+  O X O   
+O O X O O 
+  X X X X 
+O O X   X 
+    X X   
+----------
+
+White 2,0
+----------
+  O X O   
+O O X O O 
+O X X X X 
+O O X   X 
+    X X   
+----------
+
+Black 0,4
+----------
+  O X   X 
+O O X     
+O X X X X 
+O O X   X 
+    X X   
+----------
+
+White 0,0
+----------
+O O X   X 
+O O X     
+O X X X X 
+O O X   X 
+    X X   
+----------
+
+Black 1,3
+----------
+O O X   X 
+O O X X   
+O X X X X 
+O O X   X 
+    X X   
+----------
+
+White PASS
+----------
+O O X   X 
+O O X X   
+O X X X X 
+O O X   X 
+    X X   
+----------
+
+Game end.
+The winner is X
+ta time: 64.06
+student time: 35.8
+White(You) lose.
+=====Round 2=====
+Black:You White:TA
+Thu Oct 29 22:17:30 PDT 2020
+Clean up...
+Start Playing...
+Black 2,2
+----------
+          
+          
+    X     
+          
+          
+----------
+
+White 2,3
+----------
+          
+          
+    X O   
+          
+          
+----------
+
+Black 1,2
+----------
+          
+    X     
+    X O   
+          
+          
+----------
+
+White 3,3
+----------
+          
+    X     
+    X O   
+      O   
+          
+----------
+
+Black 1,1
+----------
+          
+  X X     
+    X O   
+      O   
+          
+----------
+
+White 3,2
+----------
+          
+  X X     
+    X O   
+    O O   
+          
+----------
+
+Black 1,3
+----------
+          
+  X X X   
+    X O   
+    O O   
+          
+----------
+
+White 3,1
+----------
+          
+  X X X   
+    X O   
+  O O O   
+          
+----------
+
+Black 2,1
+----------
+          
+  X X X   
+  X X O   
+  O O O   
+          
+----------
+
+White 2,0
+----------
+          
+  X X X   
+O X X O   
+  O O O   
+          
+----------
+
+Black 1,0
+----------
+          
+X X X X   
+O X X O   
+  O O O   
+          
+----------
+
+White 3,0
+----------
+          
+X X X X   
+O X X O   
+O O O O   
+          
+----------
+
+Black 1,4
+----------
+          
+X X X X X 
+O X X O   
+O O O O   
+          
+----------
+
+White 2,4
+----------
+          
+X X X X X 
+O X X O O 
+O O O O   
+          
+----------
+
+Black 0,0
+----------
+X         
+X X X X X 
+O X X O O 
+O O O O   
+          
+----------
+
+White 0,2
+----------
+X   O     
+X X X X X 
+O X X O O 
+O O O O   
+          
+----------
+
+Black 0,1
+----------
+X X O     
+X X X X X 
+O X X O O 
+O O O O   
+          
+----------
+
+White 4,2
+----------
+X X O     
+X X X X X 
+O X X O O 
+O O O O   
+    O     
+----------
+
+Black 4,4
+----------
+X X O     
+X X X X X 
+O X X O O 
+O O O O   
+    O   X 
+----------
+
+White 4,3
+----------
+X X O     
+X X X X X 
+O X X O O 
+O O O O   
+    O O X 
+----------
+
+Black 0,3
+----------
+X X   X   
+X X X X X 
+O X X O O 
+O O O O   
+    O O X 
+----------
+
+White 3,4
+----------
+X X   X   
+X X X X X 
+O X X O O 
+O O O O O 
+    O O   
+----------
+
+Black PASS
+----------
+X X   X   
+X X X X X 
+O X X O O 
+O O O O O 
+    O O   
+----------
+
+White 4,4
+----------
+X X   X   
+X X X X X 
+O X X O O 
+O O O O O 
+    O O O 
+----------
+
+Game end.
+The winner is O
+ta time: 94.92
+student time: 39.2
+Black(You) lose.
+=====Round 3=====
+Black:TA White:You
+Thu Oct 29 22:18:04 PDT 2020
+Clean up...
+Start Playing...
+Black 2,2
+----------
+          
+          
+    X     
+          
+          
+----------
+
+White 1,1
+----------
+          
+  O       
+    X     
+          
+          
+----------
+
+Black 1,2
+----------
+          
+  O X     
+    X     
+          
+          
+----------
+
+White 3,3
+----------
+          
+  O X     
+    X     
+      O   
+          
+----------
+
+Black 3,2
+----------
+          
+  O X     
+    X     
+    X O   
+          
+----------
+
+White 0,3
+----------
+      O   
+  O X     
+    X     
+    X O   
+          
+----------
+
+Black 0,2
+----------
+    X O   
+  O X     
+    X     
+    X O   
+          
+----------
+
+White 3,0
+----------
+    X O   
+  O X     
+    X     
+O   X O   
+          
+----------
+
+Black 4,2
+----------
+    X O   
+  O X     
+    X     
+O   X O   
+    X     
+----------
+
+White 1,3
+----------
+    X O   
+  O X O   
+    X     
+O   X O   
+    X     
+----------
+
+Black 2,3
+----------
+    X O   
+  O X O   
+    X X   
+O   X O   
+    X     
+----------
+
+White 3,1
+----------
+    X O   
+  O X O   
+    X X   
+O O X O   
+    X     
+----------
+
+Black 3,4
+----------
+    X O   
+  O X O   
+    X X   
+O O X O X 
+    X     
+----------
+
+White 0,1
+----------
+  O X O   
+  O X O   
+    X X   
+O O X O X 
+    X     
+----------
+
+Black 4,3
+----------
+  O X O   
+  O X O   
+    X X   
+O O X   X 
+    X X   
+----------
+
+White 1,4
+----------
+  O X O   
+  O X O O 
+    X X   
+O O X   X 
+    X X   
+----------
+
+Black 2,1
+----------
+  O X O   
+  O X O O 
+  X X X   
+O O X   X 
+    X X   
+----------
+
+White 1,0
+----------
+  O X O   
+O O X O O 
+  X X X   
+O O X   X 
+    X X   
+----------
+
+Black 2,4
+----------
+  O X O   
+O O X O O 
+  X X X X 
+O O X   X 
+    X X   
+----------
+
+White 2,0
+----------
+  O X O   
+O O X O O 
+O X X X X 
+O O X   X 
+    X X   
+----------
+
+Black 0,4
+----------
+  O X   X 
+O O X     
+O X X X X 
+O O X   X 
+    X X   
+----------
+
+White 0,0
+----------
+O O X   X 
+O O X     
+O X X X X 
+O O X   X 
+    X X   
+----------
+
+Black 4,4
+----------
+O O X   X 
+O O X     
+O X X X X 
+O O X   X 
+    X X X 
+----------
+
+White 1,3
+----------
+O O X   X 
+O O X O   
+O X X X X 
+O O X   X 
+    X X X 
+----------
+
+Game end.
+The winner is X
+ta time: 121.13
+student time: 42.52
+White(You) lose.
+=====Round 4=====
+Black:You White:TA
+Thu Oct 29 22:18:41 PDT 2020
+Clean up...
+Start Playing...
+Black 2,2
+----------
+          
+          
+    X     
+          
+          
+----------
+
+White 2,1
+----------
+          
+          
+  O X     
+          
+          
+----------
+
+Black 1,2
+----------
+          
+    X     
+  O X     
+          
+          
+----------
+
+White 3,1
+----------
+          
+    X     
+  O X     
+  O       
+          
+----------
+
+Black 1,1
+----------
+          
+  X X     
+  O X     
+  O       
+          
+----------
+
+White 3,2
+----------
+          
+  X X     
+  O X     
+  O O     
+          
+----------
+
+Black 1,3
+----------
+          
+  X X X   
+  O X     
+  O O     
+          
+----------
+
+White 3,3
+----------
+          
+  X X X   
+  O X     
+  O O O   
+          
+----------
+
+Black 2,3
+----------
+          
+  X X X   
+  O X X   
+  O O O   
+          
+----------
+
+White 1,0
+----------
+          
+O X X X   
+  O X X   
+  O O O   
+          
+----------
+
+Black 0,1
+----------
+  X       
+O X X X   
+  O X X   
+  O O O   
+          
+----------
+
+White 3,4
+----------
+  X       
+O X X X   
+  O X X   
+  O O O O 
+          
+----------
+
+Black 0,0
+----------
+X X       
+O X X X   
+  O X X   
+  O O O O 
+          
+----------
+
+White 2,0
+----------
+X X       
+O X X X   
+O O X X   
+  O O O O 
+          
+----------
+
+Black 0,3
+----------
+X X   X   
+O X X X   
+O O X X   
+  O O O O 
+          
+----------
+
+White 2,4
+----------
+X X   X   
+O X X X   
+O O X X O 
+  O O O O 
+          
+----------
+
+Black 0,2
+----------
+X X X X   
+O X X X   
+O O X X O 
+  O O O O 
+          
+----------
+
+White 4,1
+----------
+X X X X   
+O X X X   
+O O X X O 
+  O O O O 
+  O       
+----------
+
+Black 4,3
+----------
+X X X X   
+O X X X   
+O O X X O 
+  O O O O 
+  O   X   
+----------
+
+White 1,4
+----------
+X X X X   
+O X X X O 
+O O X X O 
+  O O O O 
+  O   X   
+----------
+
+Black PASS
+----------
+X X X X   
+O X X X O 
+O O X X O 
+  O O O O 
+  O   X   
+----------
+
+White 4,4
+----------
+X X X X   
+O X X X O 
+O O X X O 
+  O O O O 
+  O   X O 
+----------
+
+Black PASS
+----------
+X X X X   
+O X X X O 
+O O X X O 
+  O O O O 
+  O   X O 
+----------
+
+White 0,4
+----------
+        O 
+O       O 
+O O     O 
+  O O O O 
+  O   X O 
+----------
+
+Game end.
+The winner is O
+ta time: 150.48
+student time: 45.89
+Black(You) lose.
+=====Round 5=====
+Black:TA White:You
+Thu Oct 29 22:19:16 PDT 2020
+Clean up...
+Start Playing...
+Black 2,2
+----------
+          
+          
+    X     
+          
+          
+----------
+
+White 1,1
+----------
+          
+  O       
+    X     
+          
+          
+----------
+
+Black 2,1
+----------
+          
+  O       
+  X X     
+          
+          
+----------
+
+White 1,2
+----------
+          
+  O O     
+  X X     
+          
+          
+----------
+
+Black 1,3
+----------
+          
+  O O X   
+  X X     
+          
+          
+----------
+
+White 1,0
+----------
+          
+O O O X   
+  X X     
+          
+          
+----------
+
+Black 0,3
+----------
+      X   
+O O O X   
+  X X     
+          
+          
+----------
+
+White 2,0
+----------
+      X   
+O O O X   
+O X X     
+          
+          
+----------
+
+Black 3,1
+----------
+      X   
+O O O X   
+O X X     
+  X       
+          
+----------
+
+White 3,0
+----------
+      X   
+O O O X   
+O X X     
+O X       
+          
+----------
+
+Black 4,1
+----------
+      X   
+O O O X   
+O X X     
+O X       
+  X       
+----------
+
+White 3,3
+----------
+      X   
+O O O X   
+O X X     
+O X   O   
+  X       
+----------
+
+Black 0,2
+----------
+    X X   
+O O O X   
+O X X     
+O X   O   
+  X       
+----------
+
+White 3,4
+----------
+    X X   
+O O O X   
+O X X     
+O X   O O 
+  X       
+----------
+
+Black 0,1
+----------
+  X X X   
+O O O X   
+O X X     
+O X   O O 
+  X       
+----------
+
+White 3,2
+----------
+  X X X   
+O O O X   
+O X X     
+O X O O O 
+  X       
+----------
+
+Black 4,0
+----------
+  X X X   
+O O O X   
+O X X     
+O X O O O 
+X X       
+----------
+
+White 2,3
+----------
+  X X X   
+O O O X   
+O X X O   
+O X O O O 
+X X       
+----------
+
+Black 0,0
+----------
+X X X X   
+      X   
+  X X O   
+  X O O O 
+X X       
+----------
+
+White 2,4
+----------
+X X X X   
+      X   
+  X X O O 
+  X O O O 
+X X       
+----------
+
+Black 4,2
+----------
+X X X X   
+      X   
+  X X O O 
+  X O O O 
+X X X     
+----------
+
+White 1,4
+----------
+X X X X   
+      X O 
+  X X O O 
+  X O O O 
+X X X     
+----------
+
+Black 4,3
+----------
+X X X X   
+      X O 
+  X X O O 
+  X O O O 
+X X X X   
+----------
+
+White PASS
+----------
+X X X X   
+      X O 
+  X X O O 
+  X O O O 
+X X X X   
+----------
+
+Game end.
+The winner is X
+ta time: 182.63
+student time: 48.83
+White(You) lose.
+=====Round 6=====
+Black:You White:TA
+Thu Oct 29 22:19:51 PDT 2020
+Clean up...
+Start Playing...
+Black 2,2
+----------
+          
+          
+    X     
+          
+          
+----------
+
+White 3,2
+----------
+          
+          
+    X     
+    O     
+          
+----------
+
+Black 1,2
+----------
+          
+    X     
+    X     
+    O     
+          
+----------
+
+White 3,1
+----------
+          
+    X     
+    X     
+  O O     
+          
+----------
+
+Black 1,1
+----------
+          
+  X X     
+    X     
+  O O     
+          
+----------
+
+White 3,3
+----------
+          
+  X X     
+    X     
+  O O O   
+          
+----------
+
+Black 1,3
+----------
+          
+  X X X   
+    X     
+  O O O   
+          
+----------
+
+White 2,4
+----------
+          
+  X X X   
+    X   O 
+  O O O   
+          
+----------
+
+Black 1,0
+----------
+          
+X X X X   
+    X   O 
+  O O O   
+          
+----------
+
+White 2,3
+----------
+          
+X X X X   
+    X O O 
+  O O O   
+          
+----------
+
+Black 2,1
+----------
+          
+X X X X   
+  X X O O 
+  O O O   
+          
+----------
+
+White 3,0
+----------
+          
+X X X X   
+  X X O O 
+O O O O   
+          
+----------
+
+Black 0,3
+----------
+      X   
+X X X X   
+  X X O O 
+O O O O   
+          
+----------
+
+White 4,2
+----------
+      X   
+X X X X   
+  X X O O 
+O O O O   
+    O     
+----------
+
+Black 0,0
+----------
+X     X   
+X X X X   
+  X X O O 
+O O O O   
+    O     
+----------
+
+White 1,4
+----------
+X     X   
+X X X X O 
+  X X O O 
+O O O O   
+    O     
+----------
+
+Black 0,1
+----------
+X X   X   
+X X X X O 
+  X X O O 
+O O O O   
+    O     
+----------
+
+White 0,4
+----------
+X X   X O 
+X X X X O 
+  X X O O 
+O O O O   
+    O     
+----------
+
+Black 4,4
+----------
+X X   X O 
+X X X X O 
+  X X O O 
+O O O O   
+    O   X 
+----------
+
+White 2,0
+----------
+X X   X O 
+X X X X O 
+O X X O O 
+O O O O   
+    O   X 
+----------
+
+Black PASS
+----------
+X X   X O 
+X X X X O 
+O X X O O 
+O O O O   
+    O   X 
+----------
+
+White 3,4
+----------
+X X   X O 
+X X X X O 
+O X X O O 
+O O O O O 
+    O   X 
+----------
+
+Black PASS
+----------
+X X   X O 
+X X X X O 
+O X X O O 
+O O O O O 
+    O   X 
+----------
+
+White 0,2
+----------
+    O   O 
+        O 
+O     O O 
+O O O O O 
+    O   X 
+----------
+
+Game end.
+The winner is O
+ta time: 218.45
+student time: 52.3
+Black(You) lose.
+=====Round 7=====
+Black:TA White:You
+Thu Oct 29 22:20:29 PDT 2020
+Clean up...
+Start Playing...
+Black 2,2
+----------
+          
+          
+    X     
+          
+          
+----------
+
+White 1,1
+----------
+          
+  O       
+    X     
+          
+          
+----------
+
+Black 1,2
+----------
+          
+  O X     
+    X     
+          
+          
+----------
+
+White 3,3
+----------
+          
+  O X     
+    X     
+      O   
+          
+----------
+
+Black 3,2
+----------
+          
+  O X     
+    X     
+    X O   
+          
+----------
+
+White 0,3
+----------
+      O   
+  O X     
+    X     
+    X O   
+          
+----------
+
+Black 0,2
+----------
+    X O   
+  O X     
+    X     
+    X O   
+          
+----------
+
+White 3,0
+----------
+    X O   
+  O X     
+    X     
+O   X O   
+          
+----------
+
+Black 2,3
+----------
+    X O   
+  O X     
+    X X   
+O   X O   
+          
+----------
+
+White 1,4
+----------
+    X O   
+  O X   O 
+    X X   
+O   X O   
+          
+----------
+
+Black 4,3
+----------
+    X O   
+  O X   O 
+    X X   
+O   X O   
+      X   
+----------
+
+White 3,1
+----------
+    X O   
+  O X   O 
+    X X   
+O O X O   
+      X   
+----------
+
+Black 3,4
+----------
+    X O   
+  O X   O 
+    X X   
+O O X   X 
+      X   
+----------
+
+White 0,1
+----------
+  O X O   
+  O X   O 
+    X X   
+O O X   X 
+      X   
+----------
+
+Black 2,1
+----------
+  O X O   
+  O X   O 
+  X X X   
+O O X   X 
+      X   
+----------
+
+White 1,3
+----------
+  O X O   
+  O X O O 
+  X X X   
+O O X   X 
+      X   
+----------
+
+Black 1,0
+----------
+  O X O   
+X O X O O 
+  X X X   
+O O X   X 
+      X   
+----------
+
+White 2,0
+----------
+  O X O   
+X O X O O 
+O X X X   
+O O X   X 
+      X   
+----------
+
+Black 0,0
+----------
+X   X O   
+X   X O O 
+O X X X   
+O O X   X 
+      X   
+----------
+
+White 4,1
+----------
+X   X O   
+X   X O O 
+O X X X   
+O O X   X 
+  O   X   
+----------
+
+Black 1,1
+----------
+X   X O   
+X X X O O 
+O X X X   
+O O X   X 
+  O   X   
+----------
+
+White PASS
+----------
+X   X O   
+X X X O O 
+O X X X   
+O O X   X 
+  O   X   
+----------
+
+Black 4,4
+----------
+X   X O   
+X X X O O 
+O X X X   
+O O X   X 
+  O   X X 
+----------
+
+White PASS
+----------
+X   X O   
+X X X O O 
+O X X X   
+O O X   X 
+  O   X X 
+----------
+
+Game end.
+The winner is X
+ta time: 244
+student time: 55.52
+White(You) lose.
+=====Round 8=====
+Black:You White:TA
+Thu Oct 29 22:20:59 PDT 2020
+Clean up...
+Start Playing...
+Black 2,2
+----------
+          
+          
+    X     
+          
+          
+----------
+
+White 3,3
+----------
+          
+          
+    X     
+      O   
+          
+----------
+
+Black 1,2
+----------
+          
+    X     
+    X     
+      O   
+          
+----------
+
+White 2,3
+----------
+          
+    X     
+    X O   
+      O   
+          
+----------
+
+Black 1,1
+----------
+          
+  X X     
+    X O   
+      O   
+          
+----------
+
+White 3,2
+----------
+          
+  X X     
+    X O   
+    O O   
+          
+----------
+
+Black 1,3
+----------
+          
+  X X X   
+    X O   
+    O O   
+          
+----------
+
+White 3,1
+----------
+          
+  X X X   
+    X O   
+  O O O   
+          
+----------
+
+Black 2,1
+----------
+          
+  X X X   
+  X X O   
+  O O O   
+          
+----------
+
+White 1,4
+----------
+          
+  X X X O 
+  X X O   
+  O O O   
+          
+----------
+
+Black 0,1
+----------
+  X       
+  X X X O 
+  X X O   
+  O O O   
+          
+----------
+
+White 3,0
+----------
+  X       
+  X X X O 
+  X X O   
+O O O O   
+          
+----------
+
+Black 0,3
+----------
+  X   X   
+  X X X O 
+  X X O   
+O O O O   
+          
+----------
+
+White 2,4
+----------
+  X   X   
+  X X X O 
+  X X O O 
+O O O O   
+          
+----------
+
+Black 0,0
+----------
+X X   X   
+  X X X O 
+  X X O O 
+O O O O   
+          
+----------
+
+White 2,0
+----------
+X X   X   
+  X X X O 
+O X X O O 
+O O O O   
+          
+----------
+
+Black 0,2
+----------
+X X X X   
+  X X X O 
+O X X O O 
+O O O O   
+          
+----------
+
+White 4,2
+----------
+X X X X   
+  X X X O 
+O X X O O 
+O O O O   
+    O     
+----------
+
+Black 4,4
+----------
+X X X X   
+  X X X O 
+O X X O O 
+O O O O   
+    O   X 
+----------
+
+White 1,0
+----------
+X X X X   
+O X X X O 
+O X X O O 
+O O O O   
+    O   X 
+----------
+
+Black PASS
+----------
+X X X X   
+O X X X O 
+O X X O O 
+O O O O   
+    O   X 
+----------
+
+White 0,4
+----------
+        O 
+O       O 
+O     O O 
+O O O O   
+    O   X 
+----------
+
+Black PASS
+----------
+        O 
+O       O 
+O     O O 
+O O O O   
+    O   X 
+----------
+
+White 4,3
+----------
+        O 
+O       O 
+O     O O 
+O O O O   
+    O O X 
+----------
+
+Game end.
+The winner is O
+ta time: 280.73
+student time: 58.9
+Black(You) lose.
+=====Round 9=====
+Black:TA White:You
+Thu Oct 29 22:21:35 PDT 2020
+Clean up...
+Start Playing...
+Black 2,2
+----------
+          
+          
+    X     
+          
+          
+----------
+
+White 1,1
+----------
+          
+  O       
+    X     
+          
+          
+----------
+
+Black 2,1
+----------
+          
+  O       
+  X X     
+          
+          
+----------
+
+White 1,2
+----------
+          
+  O O     
+  X X     
+          
+          
+----------
+
+Black 1,3
+----------
+          
+  O O X   
+  X X     
+          
+          
+----------
+
+White 1,0
+----------
+          
+O O O X   
+  X X     
+          
+          
+----------
+
+Black 0,3
+----------
+      X   
+O O O X   
+  X X     
+          
+          
+----------
+
+White 2,0
+----------
+      X   
+O O O X   
+O X X     
+          
+          
+----------
+
+Black 3,1
+----------
+      X   
+O O O X   
+O X X     
+  X       
+          
+----------
+
+White 3,0
+----------
+      X   
+O O O X   
+O X X     
+O X       
+          
+----------
+
+Black 4,1
+----------
+      X   
+O O O X   
+O X X     
+O X       
+  X       
+----------
+
+White 3,3
+----------
+      X   
+O O O X   
+O X X     
+O X   O   
+  X       
+----------
+
+Black 0,2
+----------
+    X X   
+O O O X   
+O X X     
+O X   O   
+  X       
+----------
+
+White 3,4
+----------
+    X X   
+O O O X   
+O X X     
+O X   O O 
+  X       
+----------
+
+Black 0,1
+----------
+  X X X   
+O O O X   
+O X X     
+O X   O O 
+  X       
+----------
+
+White 3,2
+----------
+  X X X   
+O O O X   
+O X X     
+O X O O O 
+  X       
+----------
+
+Black 4,0
+----------
+  X X X   
+O O O X   
+O X X     
+O X O O O 
+X X       
+----------
+
+White 2,3
+----------
+  X X X   
+O O O X   
+O X X O   
+O X O O O 
+X X       
+----------
+
+Black 0,0
+----------
+X X X X   
+      X   
+  X X O   
+  X O O O 
+X X       
+----------
+
+White 2,4
+----------
+X X X X   
+      X   
+  X X O O 
+  X O O O 
+X X       
+----------
+
+Black 4,2
+----------
+X X X X   
+      X   
+  X X O O 
+  X O O O 
+X X X     
+----------
+
+White 1,4
+----------
+X X X X   
+      X O 
+  X X O O 
+  X O O O 
+X X X     
+----------
+
+Black 0,4
+----------
+X X X X X 
+      X O 
+  X X O O 
+  X O O O 
+X X X     
+----------
+
+White PASS
+----------
+X X X X X 
+      X O 
+  X X O O 
+  X O O O 
+X X X     
+----------
+
+Game end.
+The winner is X
+ta time: 314.99
+student time: 61.89
+White(You) lose.
+=====Round 10=====
+Black:You White:TA
+Thu Oct 29 22:22:09 PDT 2020
+Clean up...
+Start Playing...
+Black 2,2
+----------
+          
+          
+    X     
+          
+          
+----------
+
+White 2,3
+----------
+          
+          
+    X O   
+          
+          
+----------
+
+Black 1,2
+----------
+          
+    X     
+    X O   
+          
+          
+----------
+
+White 3,3
+----------
+          
+    X     
+    X O   
+      O   
+          
+----------
+
+Black 1,1
+----------
+          
+  X X     
+    X O   
+      O   
+          
+----------
+
+White 3,2
+----------
+          
+  X X     
+    X O   
+    O O   
+          
+----------
+
+Black 1,3
+----------
+          
+  X X X   
+    X O   
+    O O   
+          
+----------
+
+White 3,1
+----------
+          
+  X X X   
+    X O   
+  O O O   
+          
+----------
+
+Black 2,1
+----------
+          
+  X X X   
+  X X O   
+  O O O   
+          
+----------
+
+White 2,0
+----------
+          
+  X X X   
+O X X O   
+  O O O   
+          
+----------
+
+Black 1,0
+----------
+          
+X X X X   
+O X X O   
+  O O O   
+          
+----------
+
+White 3,0
+----------
+          
+X X X X   
+O X X O   
+O O O O   
+          
+----------
+
+Black 1,4
+----------
+          
+X X X X X 
+O X X O   
+O O O O   
+          
+----------
+
+White 2,4
+----------
+          
+X X X X X 
+O X X O O 
+O O O O   
+          
+----------
+
+Black 0,0
+----------
+X         
+X X X X X 
+O X X O O 
+O O O O   
+          
+----------
+
+White 0,2
+----------
+X   O     
+X X X X X 
+O X X O O 
+O O O O   
+          
+----------
+
+Black 0,1
+----------
+X X O     
+X X X X X 
+O X X O O 
+O O O O   
+          
+----------
+
+White 4,3
+----------
+X X O     
+X X X X X 
+O X X O O 
+O O O O   
+      O   
+----------
+
+Black 4,1
+----------
+X X O     
+X X X X X 
+O X X O O 
+O O O O   
+  X   O   
+----------
+
+White 4,0
+----------
+X X O     
+X X X X X 
+O X X O O 
+O O O O   
+O X   O   
+----------
+
+Black 0,3
+----------
+X X   X   
+X X X X X 
+O X X O O 
+O O O O   
+O X   O   
+----------
+
+White 4,2
+----------
+X X   X   
+X X X X X 
+O X X O O 
+O O O O   
+O   O O   
+----------
+
+Black PASS
+----------
+X X   X   
+X X X X X 
+O X X O O 
+O O O O   
+O   O O   
+----------
+
+White 4,4
+----------
+X X   X   
+X X X X X 
+O X X O O 
+O O O O   
+O   O O O 
+----------
+
+Game end.
+The winner is O
+ta time: 346.53
+student time: 65.32
+Black(You) lose.
